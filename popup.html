@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Arweave Comments</title>
+    <link rel="stylesheet" href="styles.css">    
+    <script src="popup.js" type="module"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="comments-view">
+            <div class="comments">
+                <h1>Comments for <span id="commentTarget"></span></h1>
+                <div class="summary">
+                    <div id="total" style="display: none"></div>
+                    <div class="likes-to-dislikes-ratio">
+                        <div id="likes" style="display: none"></div>
+                        <div id="dislikes" style="display: none"></div>
+                    </div>
+                </div>
+                <div id="comments"></div>
+                <div class="loading-spinner">
+                    <img src="images/spinner.gif" alt="Loading...">
+                </div>
+            </div>
+        </div>
+        <div id="write-view" style="display: none;">
+            <h1>Write Comment</h1>
+            <form id="write-form">
+                <input type="text" id="nickname" placeholder="Nickname (Optional)">
+                <div class="reaction">
+                    <input type="radio" id="like" name="reaction" value="👍">
+                    <label for="like">👍</label>
+                    <input type="radio" id="dislike" name="reaction" value="👎">
+                    <label for="dislike">👎</label>
+                </div>
+                <textarea id="body" placeholder="Write your comment here..."></textarea>
+                <button type="submit" id="send-button">Send</button>
+            </form>
+        </div>
+        <div class="icon-row">
+            <button class="icon-button" id="write-button"><img src="images/write-light.png" alt="Write"></button>
+        </div>
+    </div> 
+</body>
+</html>

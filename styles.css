@@ -1,0 +1,134 @@
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 60%;
+    max-width: 800px;
+    min-width: 320px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #444;
+    margin: 0;
+    font-size: 20px;
+    padding: 10px 0;
+    overflow: auto;
+}
+
+#comments-view, #write-view {
+    width: 100%;
+}
+
+.comments {
+    width: 100%;
+}
+.reaction {
+    margin-bottom: 10px;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    margin-bottom: 10px;
+}
+
+.likes-to-dislikes-ratio {
+    display: flex;
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+#likes, #dislikes {
+    height: 10px;
+}
+
+.comment {
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+    color: #666;
+}
+
+.comment-date, .comment-author, .comment-reaction, .comment-content {
+    margin-bottom: 5px;
+}
+
+#write-form {
+    width: 100%;
+}
+
+#nickname, #body {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+
+#send-button {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#send-button:hover {
+    background-color: #333;
+}
+
+.icon-row {
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.icon-button img {
+    width: 30px;
+    height: 30px;
+}
+
+#likes {
+    background-color: #aadca5;
+}
+
+#dislikes {
+    background-color: #dc9a9a;
+}
+
+.comment-read-more {
+    color: #007CFF;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.comment-read-more:hover {
+    color: #0056b4;
+}

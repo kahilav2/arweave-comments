@@ -1,0 +1,42 @@
+{
+    "manifest_version": 3,
+    "name": "Arweave Comments",
+    "version": "0.0.1",
+    "description": "Write Arweave comments for the any web page.",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+          "16": "images/icon16.png",
+          "48": "images/icon48.png",
+          "128": "images/icon128.png"
+        }
+    },
+    "icons": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    },
+    "permissions": ["storage", "scripting", "activeTab"],
+    "options_ui": {
+        "page": "/options.html"
+    },  
+    "web_accessible_resources": [
+        {
+          "resources": ["sw.js"],
+          "matches": ["<all_urls>"]
+        },
+        {
+          "resources": ["assets/ethers-5.2.esm.min.js"],
+          "matches": ["<all_urls>"]
+        },
+        {
+          "resources": ["test-inject.js"],
+          "matches": ["<all_urls>"]
+        },
+        {
+          "resources": ["assets/bundle.js"],
+          "matches": ["<all_urls>"]
+        }
+    ]
+}
