@@ -35,9 +35,9 @@ Arweave Comments uploads a very small item into Arweave, with the comment metada
 ```
 
 ## Expanding the Use-cases
-The proposed metadata schema presents an opportunity to expand its application beyond commenting. One significant extension could be in the domain of user feedback. This metadata schema has the capability to capture user sentiments and insights, even on websites that do not provide an avenue for user feedback.
+The proposed metadata schema presents an opportunity to expand its application beyond commenting. One significant extension could be in the domain of user feedback, including UX feedback. This metadata schema has the capability to capture user sentiments and insights, even on websites that do not provide an avenue for user feedback.
 
-The flexibility of the schema also makes it well-suited for reviews of books, products, or any other item listed on a website. Users could create permanent, permissionless reviews on any product page.
+The flexibility of the schema also makes it well-suited for reviews of books, products, or any other item that we can identify with a globally unique identifier. Users could create permanent, permissionless reviews on any such item.
 
 Another exciting possibility is anchoring comments to specific text or DOM elements on a page. This could allow users to make comments contextually relevant, and these comments could then be rendered directly into the DOM upon user request, providing a dynamic and interactive user experience.
 
