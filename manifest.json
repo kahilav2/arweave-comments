@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Arweave Comments",
     "version": "0.0.1",
-    "description": "Write Arweave comments for the any web page.",
+    "description": "Write Arweave comments to any web page.",
     "action": {
         "default_popup": "popup.html",
         "default_icon": {
@@ -17,7 +17,7 @@
       "48": "images/icon48.png",
       "128": "images/icon128.png"
     },
-    "permissions": ["storage", "scripting", "activeTab"],
+    "permissions": ["tabs"],
     "options_ui": {
         "page": "/options.html"
     },  
