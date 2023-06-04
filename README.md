@@ -9,6 +9,8 @@ On the internet it's not always possible for users to discern the thoughts and o
 
 Arweave Comments seeks to revolutionize this space by providing a seamless, user-friendly avenue for users to voice their thoughts and interact with each other about any online content. Leveraging the Arweave blockchain, Arweave Comments ensures censorship resistance and facilitates a free flow of dialogue accross the internet. 
 
+Arweave Comments also helps people evaluate the trustworthiness of a strange website.
+
 ## Description
 With Arweave Comments, you can now leave a permanent mark on any website with your insights, reviews, or simply a shoutout. By leveraging Arweave's decentralized data storage, your comments achieve permanence and can't be tampered with or deleted.
 
