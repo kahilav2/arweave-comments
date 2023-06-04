@@ -1,4 +1,3 @@
-![alt text](./images/icon128.png)
 # Arweave Comments
 Arweave Comments is a Chrome extension that enables users to contribute comments to any URL or domain in a permissionless and permanent way, utilizing the Arweave blockchain for storage.
 
@@ -55,3 +54,5 @@ Given the permissionless nature of this extension, there is an inherent challeng
 ## Contribution
 
 We're open to any and all feedback! Feel free to open an issue or submit a pull request.
+
+![alt text](./images/icon128.png)
