@@ -14,8 +14,6 @@ With Arweave Comments, you can now leave a permanent mark on any website with yo
 
 Payments for the storage are made via the Metamask wallet, using the Polygon Network (MATIC token). This ensures a low-cost yet secure transaction to store your comments forever.
 
-## Why Arweave Comments?
-
 ## How It Works
 Arweave Comments uploads a very small item into Arweave, with the comment metadata saved as transactional tags that Arweave supports. The following is a proposed metadata schema for these transactions:
 
@@ -46,11 +44,11 @@ Another exciting possibility is anchoring comments to specific text or DOM eleme
 Given the permissionless nature of this extension, there is an inherent challenge related to preventing spam or filtering out comments posted by bots. Further development is required to devise mechanisms for ensuring the quality of comments. This, however, is a common problem in the internet space, and your insights and contributions to address it are most welcome!
 
 ## Installation
-Clone the repository
-Navigate to chrome://extensions in your browser
-Enable 'Developer mode'
-Click 'Load unpacked'
-Select the cloned repository
+1. Clone the repository
+2. Navigate to chrome://extensions in your browser
+3. Enable 'Developer mode'
+4. Click 'Load unpacked'
+5. Select the cloned repository
 
 ## Contribution
 
